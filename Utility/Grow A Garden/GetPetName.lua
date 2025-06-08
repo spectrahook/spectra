@@ -28,7 +28,7 @@ local function update_esp(object_id, pet_name)
 	if not object or not esp_cache[object_id] then return end
 
 	local egg_name = object:GetAttribute("egg_name")
-	esp_cache[object_id].Text = `{egg_name} | {pet_name}`
+	esp_cache[object_id].Text = `{pet_name}`
 end
 
 local function add_esp(object)
