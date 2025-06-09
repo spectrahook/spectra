@@ -102,3 +102,4 @@ old = hookfunction(getconnections(replicated_storage.GameEvents.EggReadyToHatch_
 end))
 
 run_service.PreRender:Connect(update_all_esp)
+queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/spectrahook/spectra/refs/heads/main/Utility/Grow%20A%20Garden/GetPetName.lua",true))()')
